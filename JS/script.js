@@ -22,6 +22,7 @@ btnPlayEl.addEventListener('click', function(){
   //resetto il contenitore al click (evito la creazione di più contenitori)
   reset();
 
+  
   // 4.
   for (let i = 1; i <= 100; i++) {
   

@@ -27,11 +27,11 @@
         </div>
 
         <div class="col">
-          <select class="form-select" aria-label="Default select example">
+          <select id="difficulty-select" class="form-select" aria-label="Default select example">
             <option selected>Scegli la difficoltà</option>
-            <option value="1">Facile</option>
-            <option value="2">Intermedio</option>
-            <option value="3">Difficile</option>
+            <option value="easy">Facile</option>
+            <option value="medium">Intermedio</option>
+            <option value="hard">Difficile</option>
           </select>
 
           <button class="btn-play ms-5">PLAY</button>
@@ -41,7 +41,7 @@
     </header>
 
     <main class="d-none">
-      <div class="_container d-flex flex-wrap">
+      <div class="_container pb-4 d-flex flex-wrap">
       
         <div class="square clicked"></div>
         <div class="square"></div>
