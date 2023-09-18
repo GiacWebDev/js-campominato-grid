@@ -58,6 +58,9 @@ main {
 }
 
 ._container .square {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: calc(100% / 10);
   aspect-ratio: 1/1;
   background-color: #2B3A63;
@@ -68,4 +71,12 @@ main {
 
 .square.clicked {
   background-color: greenyellow;
+}
+
+.square span {
+  display: none;
+}
+
+.square.clicked span{
+  display: block;
 }
